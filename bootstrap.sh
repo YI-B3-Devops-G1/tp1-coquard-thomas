@@ -13,8 +13,6 @@ sudo apt-get install -y nginx
 sudo systemctl start nginx
 cd /var/www/html
 sudo echo"<!DOCTYPE html>
-<html>
-<body>
+<html><body>
 B3 Devops - TP 1
-</body>
-</html>" >> index.nginx-debian.html
+</body></html>" >> index.nginx-debian.html
