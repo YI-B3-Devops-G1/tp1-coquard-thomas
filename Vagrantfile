@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
   config.vm.define "Vagrant"
   config.vm.hostname = "Vagrant"
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/bionic64"
   config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
   config.vm.network "forwarded_port", guest: 443, host: 4440, host_ip: "127.0.0.1"
   config.vm.network "forwarded_port", guest: 22, host: 2220, host_ip: "127.0.0.1"
