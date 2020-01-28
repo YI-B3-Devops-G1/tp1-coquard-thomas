@@ -17,5 +17,4 @@ sudo echo"<!DOCTYPE html>
 <body>
 B3 Devops - TP 1
 </body>
-</html>" > index.nginx-debian.html
-sudo systemctl restart nginx
+</html>" >> index.nginx-debian.html
