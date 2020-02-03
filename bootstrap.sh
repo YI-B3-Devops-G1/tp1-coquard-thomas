@@ -10,9 +10,10 @@ sudo apt-get update
 sudo apt -y install nodejs
 
 sudo apt-get install -y nginx
-sudo systemctl start nginx
+sudo service start nginx
 cd /var/www/html
 sudo echo"<!DOCTYPE html>
 <html><body>
 B3 Devops - TP 1
-</body></html>" >> index.nginx-debian.html
+</body></html>" > index.nginx-debian.html
+sudo service restart nginx
